@@ -1,0 +1,21 @@
+body{
+    background-repeat:no-repeat;
+    background-size: 100%, 100%;
+    text-align: center;
+}
+
+canvas{
+    animation-name: a;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    border: solid 10px blue;
+}
+
+@keyframes a{
+    from{
+        box-shadow: 10 1 1 red;
+    }
+    to{
+        box-shadow: 100 1 1 red;
+    }
+}
